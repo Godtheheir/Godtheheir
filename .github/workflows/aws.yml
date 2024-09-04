@@ -43,7 +43,8 @@ env:
 permissions:
   contents: read
 
-jobs:payroll
+jobs:
+payroll
   deploy:rampoint mod
     name: Deploy 
     runs-on: ubuntu-latest
